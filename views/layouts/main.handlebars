@@ -1,0 +1,299 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>your fashion</title>
+    <script
+      src="https://kit.fontawesome.com/f992c20aa1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" href="../../public/images/icon.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../public/css/style.css" />
+
+  </head>
+
+  <body>
+    <div class="bg-color">
+      <nav class="navbar navbar-default">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="http://localhost:3000/homePage"><span
+                  class="glyphicon glyphicon-sunglasses"
+                  aria-hidden="true"
+                ></span></a></li>
+          </ul>
+
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <!--  Search  -->
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input
+                  id="searchContent"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                />
+              </div>
+              <a
+                id="searchButton"
+                href="http://localhost:3000/homePage"
+                class="btn"
+              >Search</a>
+
+            </form>
+
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >Gender <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="mainA"><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Men"
+                    >Men</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Women"
+                    >Women</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Kids"
+                    >Kids</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >Outdoor <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Travel"
+                    >Travel</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Hike"
+                    >Hike</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Swim"
+                    >Swim</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Sports"
+                    >Sports</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >Indoor <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Party"
+                    >Party</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Yoga"
+                    >Yoga</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Sleepwear"
+                    >Sleepwear</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >Formal <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Suit"
+                    >Suit</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Dress"
+                    >Dress</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Ceremony"
+                    >Ceremony</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >Seasons <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Spring"
+                    >Spring</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Summer"
+                    >Summer</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Autumn"
+                    >autumn</a></li>
+                  <li><a
+                      href="http://localhost:3000/homePage/tag?searchTag=Winter"
+                    >Winter</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              {{#if userLogin}}
+                <span>
+                  <span id="userNAME">Hello,
+                    <a href="/users/account">
+                      {{userLogin.nickname}}</a></span>&nbsp;&nbsp;
+                </span>
+                <button
+                  type="button"
+                  onclick="window.location.href='/users/signout'"
+                  class="btn AllButton navbar-btn"
+                >Sign out</button>
+              {{else}}
+                <button
+                  type="button"
+                  onclick="window.location.href='/users/signin'"
+                  class="btn btn-default navbar-btn"
+                >Sign in</button>
+                <button
+                  type="button"
+                  onclick="window.location.href='/users/signup'"
+                  class="btn AllButton navbar-btn"
+                >Sign up</button>
+              {{/if}}
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        {{{body}}}
+      </div>
+      <hr />
+    </div>
+    <div class="footer">
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>About Us</h3>
+              <p>We are a fashion company that aims to provide the latest trends
+                and styles to our customers.</p>
+              <p>Follow us on social media to stay up-to-date with our latest
+                collections and promotions.</p>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Contact Us</h3>
+              <p>Email: info@fashionshowwebsite.com</p>
+              <p>Phone: +251911111111</p>
+              <p>Address: 4kilo, AddisAbaba Ethiopia</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Newsletter</h3>
+              <p>Subscribe to our newsletter to receive updates on new arrivals,
+                promotions, and more.</p>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <hr />
+              <p class="text-center">&copy; 2023 Fashion show Website. All
+                rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <div id="to-top">
+      <span class="glyphicon glyphicon-arrow-up" aria-hidden="true">TOP</span>
+    </div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"
+    ></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    ></script>
+    <!--    <script src="../../public/js/script.js"></script>-->
+
+    <script type="text/javascript">
+      set action for '#to-top' $('#to-top').click(function () { // $('html,
+      body').scrollTop(0) $page = $('html, body') var distance =
+      $('html').scrollTop() + $('body').scrollTop() var time = 250 var interval
+      = 25 var itemDistance = distance/(time/interval) var intervalId =
+      setInterval(function () { distance -= itemDistance if(distance <= 0){
+      distance = 0 clearInterval(intervalId) } $page.scrollTop(distance) },
+      interval) }) // set search function for search input
+      $('#searchButton').click(function () { let typeIn =
+      $('#searchContent').val(); var url; if(typeIn){ url =
+      `http://localhost:3000/homePage/search?searchString=${typeIn}`; }else {
+      url = "http://localhost:3000/homePage"; } $('#searchButton').prop('href',
+      url) })
+    </script>
+  </body>
+</html>
