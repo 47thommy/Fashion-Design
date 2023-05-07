@@ -1,5 +1,5 @@
 {
-  "name": "cs-546-final-project",
+  "name": "fashion-design",
   "version": "1.0.0",
   "description": "Clothes Forum",
   "main": "app.js",
@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zephyrzambrano/CS-546-Final-Project.git"
+    "url": "https://github.com/47thommy/Fashion-Design"
   },
-  "author": "add all our names here",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zephyrzambrano/CS-546-Final-Project/issues"
-  },
-  "homepage": "https://github.com/zephyrzambrano/CS-546-Final-Project#readme",
+  "author": "Thomas wondwosen",
+  "license": "AAiT",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bcryptjs": "^2.4.3",
