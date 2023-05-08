@@ -1,7 +1,8 @@
 const MongoClient = require("mongodb").MongoClient;
 const settings = {
   mongoConfig: {
-    serverUrl: "mongodb://127.0.0.1:27017/",
+    serverUrl:
+      "mongodb+srv://thommy:Emebet1994@cluster0.ebf0nyk.mongodb.net/?retryWrites=true&w=majority",
     database: "trial",
   },
   useUnifiedTopology: true,
