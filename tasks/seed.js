@@ -67,8 +67,8 @@ async function main() {
     u1_userid,
     "Although this shirt is thin and not very warm, it is super expensive. Do you think this shirt is worth $499.99 (not including tax)?",
     [
-      "http://44.226.145.213 /public/images/MS056S-898-1.jpg",
-      "http://44.226.145.213 /public/images/MS056S-898-3.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/MS056S-898-1.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/MS056S-898-3.jpg",
     ],
     ["Men", "Party", "Spring", "Autumn"]
   );
@@ -78,9 +78,9 @@ async function main() {
     u1_userid,
     "Let me tell you a cold knowledge, unlike other mammals, rabbits are in estrus all year round! If you want to watch more , you can subscribe to me on pornhub to get my fans-only videos",
     [
-      "http://44.226.145.213 /public/images/072318.png",
-      "http://44.226.145.213 /public/images/144325.png",
-      "http://44.226.145.213 /public/images/230337.png",
+      "https://fashion-zfmz.onrender.com//public/images/072318.png",
+      "https://fashion-zfmz.onrender.com//public/images/144325.png",
+      "https://fashion-zfmz.onrender.com//public/images/230337.png",
     ],
     ["Women", "Summer", "Ceremony"]
   );
@@ -90,8 +90,8 @@ async function main() {
     u1_userid,
     "Whenever I feel like I don't have enough knowledge, I raise my belt a little, and it works.But lately I've found that my minute is only 59 seconds",
     [
-      "http://44.226.145.213 /public/images/20170116133733.jpg",
-      "http://44.226.145.213 /public/images/3B7902A37177F9CF90584F582F07DDEB.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/20170116133733.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/3B7902A37177F9CF90584F582F07DDEB.jpg",
     ],
     ["Men", "Autumn", "Suit", "Spring"]
   );
@@ -103,8 +103,8 @@ async function main() {
     u2_userid,
     "Made in our Portland, Oregon, factory, the Mountain Pass was created to be a lighter weight and more versatile hiking boot that still reflects our classic Danner styling.",
     [
-      "http://44.226.145.213 /public/images/danner_boots.jpg",
-      "http://44.226.145.213 /public/images/danner_boots01.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/danner_boots.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/danner_boots01.jpg",
     ],
     ["Men", "Hike"]
   );
@@ -113,8 +113,8 @@ async function main() {
     u2_userid,
     "Colorful, useful, satisfied",
     [
-      "http://44.226.145.213 /public/images/burton01.jpg",
-      "http://44.226.145.213 /public/images/burton02.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/burton01.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/burton02.jpg",
     ],
     ["Women", "Winter", "Sports"]
   );
@@ -123,8 +123,8 @@ async function main() {
     u2_userid,
     "Supreme has collaborated with Takashi Murakami for an exclusive COVID-19 Relief Box Logo Tee. Supreme will donate 100% of the proceeds to charity in support of youth and families facing homelessness during the COVID-19 crisis.",
     [
-      "http://44.226.145.213 /public/images/supreme01.jpg",
-      "http://44.226.145.213 /public/images/supreme02.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/supreme01.jpg",
+      "https://fashion-zfmz.onrender.com//public/images/supreme02.jpg",
     ],
     ["Men", "Women", "Summer", "Party"]
   );
@@ -134,21 +134,21 @@ async function main() {
     "Buffy Jecket",
     u3_userid,
     "In winter, it is usually cold in Beijing, So this is what we wear when it comes into Nov.",
-    ["http://44.226.145.213 /public/images/BuffyJecket.jpg"],
+    ["https://fashion-zfmz.onrender.com//public/images/BuffyJecket.jpg"],
     ["Men", "Winter", "Travel"]
   );
   let p8 = await posts.createPost(
     "Sweater",
     u3_userid,
     "I love colorful sweaters, which are usually wore in autumn, it's a kind of cloth that can always show fashion.",
-    ["http://44.226.145.213 /public/images/Sweater.jpg"],
+    ["https://fashion-zfmz.onrender.com//public/images/Sweater.jpg"],
     ["Men", "Winter", "Party"]
   );
   let p9 = await posts.createPost(
     "My Jeans",
     u3_userid,
     "I love wearing jeans, it's so coooooooool!",
-    ["http://44.226.145.213 /public/images/Jeans.jpg"],
+    ["https://fashion-zfmz.onrender.com//public/images/Jeans.jpg"],
     ["Men", "Spring", "Autumn", "Party"]
   );
 
@@ -157,21 +157,21 @@ async function main() {
     "Ski Gear",
     u4_userid,
     "I bought this amazing ski gear online, and I just got the chance to use it last weekend! I would highly recommend!",
-    ["http://44.226.145.213 /public/images/ski-gear.jpeg"],
+    ["https://fashion-zfmz.onrender.com//public/images/ski-gear.jpeg"],
     ["Men", "Winter", "Sports"]
   );
   let p11 = await posts.createPost(
     "Outdoor Boots",
     u4_userid,
     "I really like these boots. They are great for hiking through the mud!",
-    ["http://44.226.145.213 /public/images/boots.jpg"],
+    ["https://fashion-zfmz.onrender.com//public/images/boots.jpg"],
     ["Men", "Spring", "Autumn", "Travel"]
   );
   let p12 = await posts.createPost(
     "Winter Jackets",
     u4_userid,
     "I have a huge collection of winter jackets. You can never have too many jacket choices!",
-    ["http://44.226.145.213 /public/images/jackets.jpeg"],
+    ["https://fashion-zfmz.onrender.com//public/images/jackets.jpeg"],
     ["Men", "Women", "Travel"]
   );
 

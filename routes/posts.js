@@ -86,9 +86,9 @@ router.post("/editContent", async (req, res) => {
       req.body.postId,
       req.body.newContent
     );
-    res.redirect("http://44.226.145.213 /users/account");
+    res.redirect("https://fashion-zfmz.onrender.com//users/account");
   } catch (error) {
-    res.redirect("http://44.226.145.213 /users/account");
+    res.redirect("https://fashion-zfmz.onrender.com//users/account");
   }
 });
 
@@ -103,7 +103,7 @@ router.post("/delete", async (req, res) => {
     if (postInfo.userId !== req.session.userId)
       throw "the request maker's userId !== the post's userId"; //判断用户一致性
     let postDelete = await postData.removePost(req.body.postId);
-    // res.redirect("http://44.226.145.213 /users/account");
+    // res.redirect("https://fashion-zfmz.onrender.com//users/account");
     res.send(postDelete);
     // if(postDelte)
     //     res.send(true);
@@ -127,9 +127,13 @@ router.post("/addComment", async (req, res) => {
       req.session.userId,
       req.body.commentContent
     );
-    res.redirect("http://44.226.145.213 /posts/postInfo/" + req.body.postId);
+    res.redirect(
+      "https://fashion-zfmz.onrender.com//posts/postInfo/" + req.body.postId
+    );
   } catch (error) {
-    res.redirect("http://44.226.145.213 /posts/postInfo/" + req.body.postId);
+    res.redirect(
+      "https://fashion-zfmz.onrender.com//posts/postInfo/" + req.body.postId
+    );
   }
 });
 
@@ -141,7 +145,9 @@ router.post("/deleteComment", async (req, res) => {
     if (!req.body.postId) throw "need postId to delete the comment";
     if (!req.body.commentId) throw "need commentId to create the comment";
     await commentData.removeComment(req.body.postId, req.body.commentId);
-    res.redirect("http://44.226.145.213 /posts/postInfo/" + req.body.postId);
+    res.redirect(
+      "https://fashion-zfmz.onrender.com//posts/postInfo/" + req.body.postId
+    );
   } catch (error) {
     res.status(404).send(error);
   }

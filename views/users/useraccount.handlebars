@@ -150,7 +150,7 @@
               </div>
               <div class="caption">
                 <h3><a
-                    href="http://44.226.145.213 /posts/postInfo/{{this._id}}"
+                    href="https://fashion-zfmz.onrender.com//posts/postInfo/{{this._id}}"
                     class="usercenterTopic"
                   >{{this.topic}}</a></h3>
                 <div style="width: 100%; height: 120px;overflow: hidden">
@@ -185,7 +185,7 @@
                       <div class="modal-content">
                         <form
                           method="post"
-                          action="http://44.226.145.213 /posts/editContent"
+                          action="https://fashion-zfmz.onrender.com//posts/editContent"
                         >
                           <div class="modal-header">
                             <input
@@ -233,10 +233,10 @@
   <script>
     let toReportList = document.getElementById("toReportList"); if
     (toReportList) { toReportList.onclick = function () { window.location.href =
-    "http://44.226.145.213 /reports"; } } let toStatistic =
+    "https://fashion-zfmz.onrender.com//reports"; } } let toStatistic =
     document.getElementById("toStatistic"); if (toStatistic) {
     toStatistic.onclick = function () { window.location.href =
-    "http://44.226.145.213 /reports/statistic"; } }
+    "https://fashion-zfmz.onrender.com//reports/statistic"; } }
   </script>
   <script
     src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"
@@ -246,7 +246,7 @@
     let delBtns = document.getElementsByClassName('userDeleteButton'); for(let i
     = 0; i < delBtns.length; i++){ delBtns[i].onclick = function () { var xhr =
     new XMLHttpRequest(); xhr.open('post',
-    'http://44.226.145.213 /posts/delete'); let thisPostId = this.name;
+    'https://fashion-zfmz.onrender.com//posts/delete'); let thisPostId = this.name;
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
     let s = `postId=${thisPostId}`; xhr.send(s); xhr.onload = function ()
     {//获取服务器端给与客户端的响应数据 let Timeout = setTimeout(function () {

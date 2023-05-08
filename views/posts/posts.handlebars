@@ -130,7 +130,7 @@
                         <form
                           id="bbb"
                           method="post"
-                          action="http://44.226.145.213 /posts/addComment"
+                          action="https://fashion-zfmz.onrender.com//posts/addComment"
                         >
                           <div class="form-group">
                             <input
@@ -203,15 +203,15 @@
   <script type="text/javascript">
 
     var ID = $('.PostTopic').attr('id'); $('#ReportThis').click(function () {
-    var url = `http://44.226.145.213 /reports/form?id=${ID}`;
+    var url = `https://fashion-zfmz.onrender.com//reports/form?id=${ID}`;
     $(this).attr('href', url); }) $('#likeCountN,
     #dislikeCountN').click(function () { $('#likeTip').show(); let timeOut =
     setTimeout(function () { $('#likeTip').hide(); }, 2500) })
-    $('#likeCountId').click(function () { $.get("http://44.226.145.213
-    /posts/like", { postId: ID }, function (response) {
+    $('#likeCountId').click(function () { $.get("http://44.226.145.
+    :process.env.PORT /posts/like", { postId: ID }, function (response) {
     $('#likeCountId').text(response.likeCount.length); }) })
-    $('#dislikeCountId').click(function () { $.get("http://44.226.145.213
-    /posts/dislike", {postId: ID}, function (response) {
+    $('#dislikeCountId').click(function () { $.get("http://44.226.145.
+    :process.env.PORT /posts/dislike", {postId: ID}, function (response) {
     $('#dislikeCountId').text(response.dislikeCount.length); }) }) let
     currentUser = $('.addCommentButton').attr('id');
     $('.commentDeleteButton').each(function () { if($(this).attr('name') ==
@@ -219,7 +219,7 @@
     buttons in post page let delBtns =
     document.getElementsByClassName('commentDeleteButton'); for(let i = 0; i <
     delBtns.length; i++){ delBtns[i].onclick = function () { var xhr = new
-    XMLHttpRequest(); xhr.open('post', 'http://44.226.145.213
+    XMLHttpRequest(); xhr.open('post', 'http://44.226.145. :process.env.PORT
     /posts/deleteComment'); let thisCommentId = this.id; let thisPostId =
     $('.PostTopic').attr('id');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')

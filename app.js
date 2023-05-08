@@ -33,5 +33,7 @@ configRoutes(app);
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("We've now got a server!");
-  console.log("Your routes will be running on http://44.226.145.213:{3000}");
+  console.log(
+    "Your routes will be running on http://44.226.145. :process.env.PORT:{3000}"
+  );
 });

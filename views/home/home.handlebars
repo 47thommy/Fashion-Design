@@ -61,7 +61,7 @@
                     <div class="media post-part">
                         <div class="media-left ">
                             <div class="photoContainer">
-                                <a href='http://44.226.145.213 /posts/postInfo/{{this._id}}'>
+                                <a href='https://fashion-zfmz.onrender.com//posts/postInfo/{{this._id}}'>
                                     <img class="media-object user-Pic" src={{this.photoArr.[0]}}>
                                 </a>
                             </div>
@@ -85,7 +85,7 @@
         <!-- Add new Post -->
         {{#if userLogin}}
             <div id="addNewPost">
-            <form id="static-form" method="post" action="http://44.226.145.213 /homePage/createPost" enctype="multipart/form-data">
+            <form id="static-form" method="post" action="https://fashion-zfmz.onrender.com//homePage/createPost" enctype="multipart/form-data">
                 <div class="row">
                     <h4 id="Guide">Add new Post here</h4>
                     <div class="col-sm-8">
@@ -243,7 +243,7 @@
         formData.delete('tag');
         formData.delete('photoArr');
 
-        xhr.open('post', 'http://44.226.145.213 /homePage/createPost');
+        xhr.open('post', 'https://fashion-zfmz.onrender.com//homePage/createPost');
         xhr.send(formData);
 
         xhr.onload = function () {//获取服务器端给与客户端的响应数据
@@ -258,7 +258,7 @@
     //link to certain post
     $('.jumpToPost').click(function () {
 
-        var url = `http://44.226.145.213 /posts/postInfo/${$(this).attr("id")}`;
+        var url = `https://fashion-zfmz.onrender.com//posts/postInfo/${$(this).attr("id")}`;
 
         console.log(url);
         var ID = $(this).attr("id");

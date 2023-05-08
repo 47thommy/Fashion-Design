@@ -91,17 +91,17 @@ router.post("/createPost", async (req, res) => {
 
       if (files.photo0)
         photoArr.push(
-          "http://44.226.145.213 /public/images/" +
+          "https://fashion-zfmz.onrender.com//public/images/" +
             files.photo0.path.split("images\\")[1]
         );
       if (files.photo1)
         photoArr.push(
-          "http://44.226.145.213 /public/images/" +
+          "https://fashion-zfmz.onrender.com//public/images/" +
             files.photo1.path.split("images\\")[1]
         );
       if (files.photo2)
         photoArr.push(
-          "http://44.226.145.213 /public/images/" +
+          "https://fashion-zfmz.onrender.com//public/images/" +
             files.photo2.path.split("images\\")[1]
         );
 
