@@ -13,7 +13,7 @@ const constructorMethod = (app) => {
   app.use("/homePage", homePageRoutes);
 
   app.get("/", (req, res) => {
-    res.redirect("https://fashion-zfmz.onrender.com//homePage");
+    res.redirect("https://fashion-zfmz.onrender.com/homePage");
   });
 
   app.use("*", (req, res) => {
